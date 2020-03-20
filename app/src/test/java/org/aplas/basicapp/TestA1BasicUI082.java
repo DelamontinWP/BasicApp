@@ -59,8 +59,8 @@ public class TestA1BasicUI082 extends ViewTest {
 
         //Test each item
         comp.testIdName("imgFormula");
-        comp.testWidth(-1);
-        comp.testHeight(-1);
+        comp.testWidth(50);
+        comp.testHeight(50);
         comp.testImageSrc("temperature");
         comp.testLayoutBelow(layout.getChildAt(compIdx-1).getId());
         comp.testLinearHorizontal(true);
